@@ -52,3 +52,11 @@ input[type="radio"]:checked + label + .content{
 input[type="radio"]:checked + label::before{
     content: '-';
 }
+.text-black{
+    background: none;
+    font-size: 20px;
+}
+.text-black li{
+    background: none;
+    color: white;
+}
