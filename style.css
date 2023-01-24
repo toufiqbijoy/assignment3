@@ -19,3 +19,36 @@
     width: 100px;
     border-radius: 100%;
 }
+li{
+    list-style: none;
+    margin-left: 5px;
+    border-radius: 4px;
+    background: rgb(223, 222, 222);
+    padding: 3px;
+    box-shadow: 4px 4px rgb(47, 40, 40);
+}
+label{
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+}
+label::before{
+    content: '+';
+    font-size:26px;
+    font-weight: 600;
+}
+input[type="radio"]{
+    display: none;
+}
+.content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s ;
+}
+input[type="radio"]:checked + label + .content{
+    max-height: 300px;
+    padding: 10px 10px 15px;
+}
+input[type="radio"]:checked + label::before{
+    content: '-';
+}

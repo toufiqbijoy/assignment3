@@ -47,8 +47,9 @@
                       </li>
                     </ul>
                    
-                      <button class="btn btn-outline-success   bg-warning btn-fluid" 
+                     <a href="https://www.google.com"><button class="btn btn-outline-success   bg-warning btn-fluid" 
                       type="submit"><h4 class="text-white d-fluid">Free Consultation</h4></button>
+                      </a>
                     
                   </div>
                 </div>
@@ -114,7 +115,7 @@
             <!-- 
               ....card 2
             ....... -->
-            <div class="card">
+            <div class="card bg-body-secondary">
               <img src="./img/criminal.png" class="card-img-top pt-5" alt="...">
               <div class="card-body">
                 <p class="card-text">
@@ -169,7 +170,7 @@
             <!-- 
               ....card 5
             ....... -->
-            <div class="card">
+            <div class="card bg-body-secondary ">
               <img src="./img/divorce.png" class="card-img-top pt-5" alt="...">
               <div class="card-body">
                 <p class="card-text">
@@ -184,7 +185,7 @@
              
             </div>
             <!-- 
-              ....card 3
+              ....card 6
             ....... -->
             <div class="card">
               <img src="./img/tax.png" class="card-img-top pt-5" alt="...">
@@ -278,29 +279,74 @@
             </button>
           </div>
 
-
-
-
         </section>
+<!-- sliding img section end here -->
+
+        <!-- q&a and pic start here -->
+
         <section class="container mt-5" >
           <h1 class="text-center pt- mb-3">Frequently asked any question</h1>
           <p class="text-center mb-5">ther are many kinds of Lorem ipsum dolor sit.and many people face this problem so in a sentence<br>
           one should be careful enough to avoid this kinds problems</p>
           <Div class="row mt-5">
-            <div class="col-6">
-              <h2>
-               1.what is the different between grid and flex?
-              </h2>
-              <h2>
-                2.what is the purpose of medea query?
-
-              </h2>
-              <h2>
-                3.what is css box model explain?
-              </h2>
-              <h2>
-               4. what is semantic tag?
-              </h2>
+            <div class="col-md-6 bg-body-secondary">
+              <ul class="accordian">
+                <li class="mb-4">
+                
+                <input type="radio" name="accordian" id="first" checked>
+                <label for="first">
+               
+                 1.box model os css and how does it works??
+                
+                </label>
+                <div class="content">
+                  it is very important to build a <br>website.it tell us about the relative <br>
+                  position,margin,padding height,width of diffrent things
+                </div>
+                
+                </li>
+                <li class="mb-4">
+                
+                <input type="radio" name="accordian" id="second" checked>
+                <label for="second">
+               
+                 2. what is symantic tag ?
+                
+                </label>
+                <div class="content">
+                  symantic tag are those tag which describe about its contain by its name.like nav,its refers the nav bar
+                </div>
+                
+                </li>
+                <li class="mb-4">
+                
+                <input type="radio" name="accordian" id="third" checked>
+                <label for="third">
+               
+                 3.what is the different between grid and flex?
+                
+                </label>
+                <div class="content">
+                  grid divide the width into 12 culom where we can add some thing by<br> dividing the space into diffrent equals like 2,4,6 and 12..on the other hand flex align all item in a line inside it.
+                </div>
+                
+                </li>
+                <li class="mb-4">
+                
+                <input type="radio" name="accordian" id="fourth" checked>
+                <label for="fourth">
+               
+                4.what is the purpose of media query??
+                
+                </label>
+                <div class="content">
+                 media query help us to make a website<br>
+                  responsive by fixing the breaking the point of different divices
+                </div>
+                
+                </li>
+              </ul>
+              
 
             </div>
             <div class="col-md-6">
@@ -311,6 +357,7 @@
 
 
 
+        </section>
         </section>
         <footer class="bg-black">
           <div class="container">
@@ -364,15 +411,14 @@
               </p>
               <div class="d-flex">
                 <input class="form-control " type="email" placeholder="email" aria-label="Search">
-              <img src="./img/" alt="">
+                <i class="fa-regular fa-paper-plane bg-warning p-3"></i>
               </div>
              
             </div>
           </div>
           </div>
        </div>
-
-
+</footer>
 
 
     <script src="bootstrap.js"></script>
